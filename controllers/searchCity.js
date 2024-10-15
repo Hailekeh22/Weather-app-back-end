@@ -22,7 +22,7 @@ export const searchCityWeatherInfo = async (req, res) => {
 
     res.send(fetchedData);
   } catch (e) {
-    console.log("error");
+    console.log("error" + city);
     res.send("Error Happend");
   }
 };
